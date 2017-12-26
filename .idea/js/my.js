@@ -1,4 +1,4 @@
-//dadadadadffff
+//dadadadadffffggg
 function setPullRight(){
     var width = $(window).width();
     if (width > 751){
