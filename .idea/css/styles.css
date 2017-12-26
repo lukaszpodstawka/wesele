@@ -1,0 +1,417 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Courgette);
+
+html,
+body {
+    height: 100%;
+    background-color: #F8F8F9;
+    font-family: 'Merriweather', serif;
+}
+
+.carousel,
+.item,
+.active, 
+#home_gallery {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+nav{
+    background-image: url("../img/diagonal-pattern.png");
+    background-color: rgba(232, 19,165, 0.8) !important;
+    border-color: transparent !important;
+}
+
+#nav-items-list a{
+    margin-left: 10px;
+    color: whitesmoke !important;
+    font-size: 120%;
+    border: 4px solid transparent;
+}
+
+#nav-items-list a:hover{
+    border-bottom: 4px solid whitesmoke;
+/*    color: whitesmoke !important;*/
+}
+
+nav > div.container > div.navbar-header > a{
+    color: whitesmoke!important;
+    font-size: 175%;
+    text-shadow: 2px 2px 4px gray;
+}
+
+.navpattern {
+    width: 100%;
+    height: 100%;
+    background-image: url("img/diagonal-pattern.png");
+}
+
+.nav .navbar-nav .pull-right{
+    padding-right: 25px;
+}
+#homeCarousel {
+    -webkit-box-shadow: 0px 5px 2px 0px rgba(36,36,36,0.75);
+    -moz-box-shadow: 0px 5px 2px 0px rgba(36,36,36,0.75);
+    box-shadow: 0px 5px 2px 0px rgba(36,36,36,0.75);
+}
+
+#contact {
+    background-image: url("../img/diagonal-pattern.png");
+}
+
+.carousel-caption {
+
+
+}
+
+.countdown2wedding {
+    font-family: 'Comfortaa';
+    font-size: 2.5em;
+}
+
+#video {
+/*    background-image: url("../img/diagonal-pattern.png");*/
+    
+}
+
+#video2 {
+     background-image: url("../img/shattered.png");
+}
+
+.video_wrapper{
+    
+    padding-top: 5%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+
+
+h2 {
+    font-family: 'Courgette', cursive;
+    font-size: 270%;
+    text-shadow: 2px 2px 4px gray;
+ 
+}
+
+#gallery {
+    background-image: url("../img/galeria/tlo.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.soon {
+    text-align: center;
+    padding: 45% 0 45% 0;
+}
+
+
+.heart > span {
+    border-width: 1px 0px 0px;
+    border-style: solid none none;
+    border-color: #3F5291 -moz-use-text-color;
+    display: inline-block;
+    margin: 5px 10px;
+    width: 40px;
+}
+
+.glyphicon-heart {
+    color: red;
+}
+
+h3 {
+    font-family: 'Courgette', cursive;
+    font-size: 150%;
+    text-shadow: 2px 2px 4px gray;
+    text-decoration: none;
+    color:black;
+}
+h4 {
+    font-size: 117%;
+    margin-top: 0px;
+    margin-bottom: 5%;
+}
+
+
+.gallery_wrapper {
+    padding-top: 4%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.contact_wrapper {
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;  
+}
+
+.link {
+    text-align: center;
+}
+
+div.link {
+    margin-top: 6%;
+}
+
+.link > a:link {
+    text-decoration: none;
+}
+
+.link > a:visited {
+    text-decoration: none;
+}
+
+.link > a:hover {
+    text-decoration: none;
+}
+
+.link > a:active {
+    text-decoration: none;
+}
+
+.wyrownanie {
+    margin-bottom: 0px;
+    width: 200px;
+}
+
+
+.artur {
+    font-size: 0.8em;
+    text-align: left;
+
+}
+
+.martyna {
+    font-size: 0.8em;
+    text-align: right;
+  
+}
+
+section {
+/*    color: #1b3690;*/
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;  /*ie8*/ 
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+/*	padding-top: 25px;*/
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+h2{
+    font-size: 3.0em;
+}
+
+.heart-jpg {
+    margin: 0 auto;
+}
+
+.kafelek {
+    width: 100%;
+    height: 20em;
+    position: relative;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    box-shadow: 0px 0px 20px 3px #888888;
+        
+    cursor: pointer;
+    
+    display:block;
+    -webkit-transition:all .2s linear;
+    transition:all .2s linear;
+}
+
+.kafelek:hover .picture > img{
+    filter:brightness(70%);
+    -webkit-filter:brightness(70%);
+}
+
+.kafelek:hover .gallery-name > span{
+    border-bottom: 2px solid black;
+}
+.kafelek:hover .lupa{
+    color: rgba(245, 245, 245, 0.8);
+}
+
+.gallery-name > span{
+    border-bottom: 2px solid transparent;
+    right: 5%;
+}
+
+.picture {
+/*    position: absolute;*/
+    float: left;
+    width: 70%;
+    height: 100%;
+    /*background-image: url("../img/zd3.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    */border: 8px solid whitesmoke;
+    overflow: hidden;
+}
+
+.picture > img{
+  min-height: 100%;
+  min-width: 100%;
+  width: auto;
+  height: auto;
+  max-width: none;
+  max-height: none;
+  display: block;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.gallery-name {
+/*    position: absolute;*/
+    float: right;
+    width: 30%;
+    height: 100%;
+    background-color: whitesmoke;
+    
+    font-family: 'Courgette', cursive;
+    font-size: 200%;
+    text-shadow: 2px 2px 4px gray;
+}
+
+.kafelek:hover {
+    
+    -ms-transform:scale(1.05);
+    -webkit-transform:scale(1.05);
+    transform:scale(1.05);
+    z-index: 10;
+}
+
+.free-space {
+    margin-bottom: 4%;
+}
+
+.gallery-name > span {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 8%;
+}
+
+.lupa {
+    position: absolute;
+    color: transparent;
+    font-size: 250%;
+    z-index: 1;
+    
+    left: 35%; top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#gallery .col-md-6 {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.carousel-caption h2 {
+    /*    top: 10%;*/
+    bottom: 5%;
+    width: 70%;
+    margin: 0 auto;
+/*    text-align: left;*/
+    background-color: rgba(27, 54, 144, 0.1);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+@media screen and (max-width: 1199px) {
+    .kafelek{
+        height: 18em;
+    }
+    
+    .poprawiny{
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .carousel-caption h2 {
+        font-size: 2.75em;
+        width: 90% !important;
+    }
+    
+    .kafelek{
+        height: 15em;
+    }
+    
+    .poprawiny{
+        font-size: 100%;
+        background-color: whitesmoke;
+        padding-left: 5%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .carousel-caption h2 {
+        font-size: 2em;
+        width: 95% !important;
+    }
+    
+    .kafelek{
+        height: 18em;
+    }
+
+    #nav-items-list > ul > li > a {
+        text-align: center;
+    }
+    
+    .artur{
+        text-align: center;
+        font-size: 0.5em;
+    }
+    
+    .martyna {
+        text-align: center;
+        font-size: 0.5em;
+    }
+    
+}
+#gallery-items {
+    display: none;
+}

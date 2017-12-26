@@ -1,0 +1,274 @@
+<!doctype html>
+
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Marlena &#128149; Łukasz</title>
+  <meta name="description" content="Nasz strona">
+  <meta name="author" content="Martyna Czapla,Artur Sosnowski,Marlena Czapla-Podstawka,Łukasz Podstawka">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-big-grid.min.css" rel="stylesheet">
+    
+    <link type="text/css" rel="stylesheet" href="css/lightgallery.min.css" /> 
+    
+    <!--  WEB FONTS  -->
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Comfortaa:700' rel='stylesheet' type='text/css'>
+    
+    <!--  STYLES FILE  -->
+    <link rel="stylesheet" href="css/styles.css">
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+
+<body>
+    
+<!-- NAV BAR -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="start">
+    <div class="navpattern"></div>
+      <div class="container">
+          
+        <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-items-list">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            <a class="navbar-brand" href="#homeCarousel">Marlena <span style="color:yellow">&#128149;</span> Łukasz</a>
+        </div>
+          
+        <div class="collapse navbar-collapse" id="nav-items-list">
+          <ul class="nav navbar-nav">
+            <li><a href="#gallery">Galeria</a></li> 
+            <li><a href="#video">Film</a></li> 
+            <li><a href="#contact">Kontakt</a></li> 
+          </ul>
+        </div>
+          
+      </div>
+    </nav>
+<!-- END OF NAV BAR -->
+    
+<!-- HOME CAROUSEL -->
+    <header id="homeCarousel" class="carousel slide" data-ride="carousel">
+        
+        <!-- SECTION HOME_GALLERY -->
+         <section id="home_gallery">
+             
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#homeCarousel" data-slide-to="1"></li>
+            <li data-target="#homeCarousel" data-slide-to="2" ></li>
+            <li data-target="#homeCarousel" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('img/karuzela/zd4.jpg');"></div>
+                <div class="carousel-caption">
+                    <div>
+                        <h2>Serdecznie dziękujemy wszytkim<br> za przybycie i życzenia!</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('img/karuzela/zd3.jpg');"></div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('img/karuzela/zd2.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Serdecznie dziękujemy wszytkim<br> za przybycie i życzenia!</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('img/karuzela/zd1.jpg');"></div>
+            </div>
+
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#homeCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#homeCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </section>
+    </header>
+    
+    <section id= "gallery">
+        <div class="container">
+            <div class="row">
+                <div class="gallery_wrapper col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12">
+                        <div class="heart">
+                           <h2>Galeria</h2>
+
+                            <span></span>
+                            <h4 class="glyphicon glyphicon-heart"></h4>
+                            <span></span>
+                        </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="kafelek" gallery="#gallery-slub">
+                        <div class="picture">
+                            <span class="glyphicon glyphicon-search lupa"></span>
+                            <img src="img/galeria/slub.jpg">
+                        </div>
+                        <div class="gallery-name">
+                            <span>Ślub</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="kafelek" gallery="#gallery-wesele">
+                        <div class="picture">
+                            <span class="glyphicon glyphicon-search lupa"></span>
+                            <img src="img/galeria/wesele.jpg">
+                        </div>
+                        <div class="gallery-name">
+                            <span>Wesele</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="kafelek" gallery="#gallery-poprawiny">
+                        <div class="picture">
+                            <span class="glyphicon glyphicon-search lupa"></span>
+                            <img src="img/galeria/poprawiny.jpg">
+                        </div>
+                        <div class="gallery-name">
+                            <span class="poprawiny">Poprawiny</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="kafelek" gallery="#gallery-plener">
+                        <div class="picture">
+                            <span class="glyphicon glyphicon-search lupa"></span>
+                            <img src="img/galeria/plener.jpg">
+                        </div>
+                        <div class="gallery-name">
+                            <span>Plener</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row free-space"></div>
+        </div>
+    </section>
+    
+    <section id= "video">
+        <div class="container">
+           <div class="row video_wrapper">
+               <div class="col-xlg-10 col-xlg-offset-1 col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+                   <div class="heart">
+                       <h2>Film</h2>
+                       <h3>-część pierwsza</h3>
+                        <span></span>
+                        <h4 class="glyphicon glyphicon-heart"></h4>
+                        <span></span>
+                    </div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                       <iframe class="embed-responsive-item" width="853" height="480" src="https://www.youtube.com/embed/PJUBt9WcV5M?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="link">
+                        <a href="#video2"> <h3>Część druga</h3><span style="font-size:2.5em;"  class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="video2">
+        <div class="container">
+            <div class="row video_wrapper">
+                <div class="col-xlg-10 col-xlg-offset-1 col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+             <!-- <div class="link">
+                    <a class="wyrownanie" href="#video"><h4 class="glyphicon glyphicon-chevron-up" aria-hidden="true"></h4> <h3>Część pierwsza</h3></a>
+                </div>-->
+                    <div class="heart">
+                       <h2>Film</h2>
+                       <h3>-część druga</h3>
+                        <span></span>
+                        <h4 class="glyphicon glyphicon-heart"></h4>
+                        <span></span>
+                    </div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" width="853" height="480" src="https://www.youtube.com/embed/yDezD1bTR3E?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="link">
+                        <a href="#video"> <h3>Część pierwsza</h3><span style="font-size:2.5em;"  class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+
+        <div class="container contact_wrapper">
+            <div class="row">
+                  <div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+                    <div class="heart">
+                       <h2>Kontakt</h2>
+                        <span></span>
+                        <h4 class="glyphicon glyphicon-heart"></h4>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+                    <img class="img-responsive heart-jpg" src="img/serce2.png">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="artur"><h2>Artur Sosnowski<br/>telefon&nbspkontaktowy: 793&nbsp128&nbsp750<br/>mail: art.artur@gmail.com</h2></div> 
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="martyna"><h2>Martyna Sosnowska<br/>telefon&nbspkontaktowy: 604&nbsp276&nbsp326<br/>mail: martynka.czapla@gmail.com</h2></div> 
+                </div>
+            </div>                   
+        </div>
+
+    </section>
+    
+    <section id="gallery-items">
+    </section>
+    
+<!--  JAVASCRIPT  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    
+    <script src="js/bootstrap.min.js"></script>  
+    
+    <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+    <script src="js/lightgallery.js"></script>
+    <script src="js/lightgallery.js"></script>
+    <script src="js/lg-fullscreen.js"></script>
+    <script src="js/lg-thumbnail.js"></script>
+    <script src="js/lg-autoplay.js"></script>
+    <script src="js/lg-zoom.js"></script>
+    <script src="js/lg-hash.js"></script>
+    <script src="js/lg-pager.js"></script>
+    <script src="js/jquery.mousewheel.min.js"></script>
+    
+    <script src="js/my.js"></script>
+</body>
+</html>
